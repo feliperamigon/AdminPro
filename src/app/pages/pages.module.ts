@@ -16,9 +16,11 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { DonutChartComponent } from './../components/donut-chart/donut-chart.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 // Temp
 import { IncrementComponent } from '../components/increment/increment.component';
+
 
 @NgModule({
     declarations: [
@@ -27,7 +29,8 @@ import { IncrementComponent } from '../components/increment/increment.component'
         ProgressComponent,
         Graficas1Component,
         IncrementComponent,
-        DonutChartComponent
+        DonutChartComponent,
+        AccountSettingsComponent
     ],
     exports: [
         DashboardComponent,
