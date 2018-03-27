@@ -20,6 +20,8 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
 
 // Temp
 import { IncrementComponent } from '../components/increment/increment.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 @NgModule({
@@ -30,7 +32,9 @@ import { IncrementComponent } from '../components/increment/increment.component'
         Graficas1Component,
         IncrementComponent,
         DonutChartComponent,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        PromisesComponent,
+        RxjsComponent
     ],
     exports: [
         DashboardComponent,
